@@ -7,5 +7,10 @@ class Meal
   def self.all
     @@all
   end
+  
+  def initialize(waiter, customer, total, tip=0)
+    @waiter = waiter
+    @customer = customer
+    @
 
 end
