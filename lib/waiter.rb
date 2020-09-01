@@ -8,9 +8,9 @@ class Waiter
     @@all
   end
   
-  def initialize(name, )
+  def initialize(name, yrs_experience)
     @name = name
-    @age = age
+    @yrs_experience = yrs_experience
     self.class.all << self
   end
 
