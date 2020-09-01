@@ -13,6 +13,6 @@ class Meal
     @customer = customer
     @total = total
     @tip = tip
-    self.
+    self.class.all << self
 
 end
