@@ -27,7 +27,7 @@ class Waiter
   end
   
   def best_tipper
-    meals_sorted = meals.sort_by {|meal| meal.tip}.
+    meals_sorted = meals.sort_by {|meal| meal.tip}.pop
     best_tipped_meal = meals.
   end
 
