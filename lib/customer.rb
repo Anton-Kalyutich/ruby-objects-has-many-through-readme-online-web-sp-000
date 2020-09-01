@@ -13,6 +13,6 @@ class Customer
     self.class.all << self
   end
   
-  
+  def new_meal(waiter, total, tip=0)
   
 end
