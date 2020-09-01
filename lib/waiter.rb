@@ -8,6 +8,10 @@ class Waiter
     @@all
   end
   
-  
+  def initialize(name, )
+    @name = name
+    @age = age
+    self.class.all << self
+  end
 
 end
