@@ -14,5 +14,6 @@ class Meal
     @total = total
     @tip = tip
     self.class.all << self
+  end
 
 end
